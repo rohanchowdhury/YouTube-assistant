@@ -21,7 +21,7 @@ if url:
                     st.subheader("AI response:")
                     st.text(ai_response)    
                     
-                    if st.button("Do you want to view the transcript?"):
+                    if st.button("Press to view the entire transcript!"):
                         st.subheader("Video Transcript:")
                         st.text(transcript[0].page_content)                            
                 else:
